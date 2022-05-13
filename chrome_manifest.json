@@ -6,7 +6,6 @@
   "description": "Stop using YouTube's short video player.",
   "author": "Steve Tautonico",
   "permissions": [
-    "tabs",
     "scripting"
   ],
   "host_permissions": [

@@ -12,8 +12,8 @@ echo "Building package for Chrome..."
 cp chrome_manifest.json build/chrome/manifest.json
 cp -r images antishort.js background.js LICENSE README.md build/chrome
 
-cd build/chrome
-zip -q -r antishort.zip *
+cd build/chrome || exit
+zip -q -r antishort.zip ./*
 rm -rf images antishort.js background.js LICENSE README.md manifest.json
 
 
